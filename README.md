@@ -2,7 +2,7 @@
 
 Este repositorio contiene el **frontend del proyecto ChurnInsight**, una aplicación orientada a la predicción de churn (abandono de clientes) mediante un modelo de machine learning, consumido desde un backend en Java Spring Boot.
 
-## 🧩 Estructura del proyecto
+##  Estructura del proyecto
 
 churninsight-frontend/
 │

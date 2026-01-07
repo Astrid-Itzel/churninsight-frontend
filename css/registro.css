@@ -1,0 +1,87 @@
+/* Estilos Generales */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Tarjeta de Registro */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 2.5rem !important;
+}
+
+/* Títulos de sección */
+h4 {
+    color: #212529;
+    letter-spacing: -0.5px;
+}
+
+h6.text-primary {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    border-left: 3px solid #0d6efd;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+/* Inputs y Selects */
+.form-label {
+    margin-bottom: 0.4rem;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+}
+
+/* Checkboxes y Switches */
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Botón de envío */
+.btn-primary {
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+.btn-light {
+    background-color: #f1f3f5;
+    border: 1px solid #dee2e6;
+    font-weight: 500;
+}
+
+/* Ajustes de espaciado para móviles */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.5rem !important;
+    }
+}
